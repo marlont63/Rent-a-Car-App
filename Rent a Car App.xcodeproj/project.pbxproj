@@ -8,20 +8,82 @@
 
 /* Begin PBXBuildFile section */
 		054A65372164E9A0009F2503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A65362164E9A0009F2503 /* AppDelegate.swift */; };
-		054A65392164E9A0009F2503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A65382164E9A0009F2503 /* ViewController.swift */; };
+		054A65392164E9A0009F2503 /* SelectDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A65382164E9A0009F2503 /* SelectDateViewController.swift */; };
 		054A653C2164E9A0009F2503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054A653A2164E9A0009F2503 /* Main.storyboard */; };
 		054A653E2164E9A3009F2503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054A653D2164E9A3009F2503 /* Assets.xcassets */; };
 		054A65412164E9A3009F2503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054A653F2164E9A3009F2503 /* LaunchScreen.storyboard */; };
+		054A6550216533FD009F2503 /* SelectDatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A654F216533FD009F2503 /* SelectDatePresenter.swift */; };
+		054A655321653435009F2503 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A655221653435009F2503 /* BasePresenter.swift */; };
+		054A65552165347D009F2503 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A65542165347D009F2503 /* BaseViewController.swift */; };
+		054A65592165357D009F2503 /* UIAplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A65582165357D009F2503 /* UIAplication.swift */; };
+		054A655B21653617009F2503 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A655A21653617009F2503 /* String.swift */; };
+		054A655F21653995009F2503 /* SelectVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A655E21653995009F2503 /* SelectVehicleViewController.swift */; };
+		054A656121653A63009F2503 /* SelectVehiclePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A656021653A63009F2503 /* SelectVehiclePresenter.swift */; };
+		054A656321653DFA009F2503 /* RequestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A656221653DFA009F2503 /* RequestServices.swift */; };
+		054A656521653E22009F2503 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A656421653E22009F2503 /* Manager.swift */; };
+		054A656721653E4E009F2503 /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A656621653E4E009F2503 /* CallbackQueue.swift */; };
+		054A656921653E90009F2503 /* CRError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A656821653E90009F2503 /* CRError.swift */; };
+		054A656B21653ED6009F2503 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A656A21653ED6009F2503 /* URLRequest.swift */; };
+		054A656D21653EFB009F2503 /* HTTPURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A656C21653EFB009F2503 /* HTTPURLResponse.swift */; };
+		054A656F21653F36009F2503 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A656E21653F36009F2503 /* Session.swift */; };
+		054A657121653F65009F2503 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A657021653F65009F2503 /* Array.swift */; };
+		054A657421654294009F2503 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A657321654294009F2503 /* Response.swift */; };
+		054A6577216543F3009F2503 /* SelectVehicleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A6576216543F3009F2503 /* SelectVehicleRequest.swift */; };
+		054A657B216544BB009F2503 /* SelectVehicleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A657A216544BB009F2503 /* SelectVehicleResponse.swift */; };
+		054A657D21654594009F2503 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A657C21654594009F2503 /* BaseRequest.swift */; };
+		054A657F21654CBD009F2503 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A657E21654CBD009F2503 /* Vehicle.swift */; };
+		054A658221660181009F2503 /* VehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A658121660180009F2503 /* VehicleTableViewCell.swift */; };
+		054A658521661F13009F2503 /* InsertClienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A658421661F13009F2503 /* InsertClienteViewController.swift */; };
+		054A658821661F8A009F2503 /* InsertClientPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A658721661F8A009F2503 /* InsertClientPresenter.swift */; };
+		054A658B21663F17009F2503 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A658A21663F17009F2503 /* SummaryViewController.swift */; };
+		054A658D21663FA8009F2503 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A658C21663FA8009F2503 /* Client.swift */; };
+		054A659021666F98009F2503 /* SummaryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A658F21666F98009F2503 /* SummaryPresenter.swift */; };
+		054A659321667E72009F2503 /* RegisterReserveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A659221667E72009F2503 /* RegisterReserveRequest.swift */; };
+		054A659621667EF5009F2503 /* RegisterReserveResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A659521667EF5009F2503 /* RegisterReserveResponse.swift */; };
+		054A65992166BD04009F2503 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A65982166BD04009F2503 /* ResultViewController.swift */; };
+		AE945CABB7CE517EB1B51E4A /* Pods_Rent_a_Car_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69540EB6F0567A52602F6FC9 /* Pods_Rent_a_Car_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		054A65332164E9A0009F2503 /* Rent a Car App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rent a Car App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		054A65362164E9A0009F2503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		054A65382164E9A0009F2503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		054A65382164E9A0009F2503 /* SelectDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateViewController.swift; sourceTree = "<group>"; };
 		054A653B2164E9A0009F2503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		054A653D2164E9A3009F2503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		054A65402164E9A3009F2503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		054A65422164E9A3009F2503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054A654F216533FD009F2503 /* SelectDatePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDatePresenter.swift; sourceTree = "<group>"; };
+		054A655221653435009F2503 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		054A65542165347D009F2503 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		054A65582165357D009F2503 /* UIAplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAplication.swift; sourceTree = "<group>"; };
+		054A655A21653617009F2503 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		054A655E21653995009F2503 /* SelectVehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVehicleViewController.swift; sourceTree = "<group>"; };
+		054A656021653A63009F2503 /* SelectVehiclePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVehiclePresenter.swift; sourceTree = "<group>"; };
+		054A656221653DFA009F2503 /* RequestServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestServices.swift; sourceTree = "<group>"; };
+		054A656421653E22009F2503 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		054A656621653E4E009F2503 /* CallbackQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackQueue.swift; sourceTree = "<group>"; };
+		054A656821653E90009F2503 /* CRError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRError.swift; sourceTree = "<group>"; };
+		054A656A21653ED6009F2503 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		054A656C21653EFB009F2503 /* HTTPURLResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPURLResponse.swift; sourceTree = "<group>"; };
+		054A656E21653F36009F2503 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		054A657021653F65009F2503 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		054A657321654294009F2503 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		054A6576216543F3009F2503 /* SelectVehicleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVehicleRequest.swift; sourceTree = "<group>"; };
+		054A657A216544BB009F2503 /* SelectVehicleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVehicleResponse.swift; sourceTree = "<group>"; };
+		054A657C21654594009F2503 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		054A657E21654CBD009F2503 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		054A658121660180009F2503 /* VehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewCell.swift; sourceTree = "<group>"; };
+		054A658421661F13009F2503 /* InsertClienteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertClienteViewController.swift; sourceTree = "<group>"; };
+		054A658721661F8A009F2503 /* InsertClientPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertClientPresenter.swift; sourceTree = "<group>"; };
+		054A658A21663F17009F2503 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		054A658C21663FA8009F2503 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		054A658F21666F98009F2503 /* SummaryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryPresenter.swift; sourceTree = "<group>"; };
+		054A659221667E72009F2503 /* RegisterReserveRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterReserveRequest.swift; sourceTree = "<group>"; };
+		054A659521667EF5009F2503 /* RegisterReserveResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterReserveResponse.swift; sourceTree = "<group>"; };
+		054A65982166BD04009F2503 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		69540EB6F0567A52602F6FC9 /* Pods_Rent_a_Car_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rent_a_Car_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DCD288DC9AFA4F35D1AF4F /* Pods-Rent a Car App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent a Car App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rent a Car App/Pods-Rent a Car App.debug.xcconfig"; sourceTree = "<group>"; };
+		C83C0DD52E35773470BE9712 /* Pods-Rent a Car App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent a Car App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rent a Car App/Pods-Rent a Car App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE945CABB7CE517EB1B51E4A /* Pods_Rent_a_Car_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +103,8 @@
 			children = (
 				054A65352164E9A0009F2503 /* Rent a Car App */,
 				054A65342164E9A0009F2503 /* Products */,
+				2DC7F15FFDA79189D470256A /* Pods */,
+				327C0E915F7A712A1D636EAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +119,252 @@
 		054A65352164E9A0009F2503 /* Rent a Car App */ = {
 			isa = PBXGroup;
 			children = (
+				054A655721653566009F2503 /* Extensions */,
+				054A655621653512009F2503 /* Config */,
+				054A654D2164EA15009F2503 /* Services */,
+				054A654C2164E9ED009F2503 /* Storyboard */,
+				054A654A2164E9CB009F2503 /* Presenter */,
+				054A65492164E9C3009F2503 /* Model */,
+				054A65482164E9BA009F2503 /* View */,
 				054A65362164E9A0009F2503 /* AppDelegate.swift */,
-				054A65382164E9A0009F2503 /* ViewController.swift */,
-				054A653A2164E9A0009F2503 /* Main.storyboard */,
 				054A653D2164E9A3009F2503 /* Assets.xcassets */,
 				054A653F2164E9A3009F2503 /* LaunchScreen.storyboard */,
 				054A65422164E9A3009F2503 /* Info.plist */,
 			);
 			path = "Rent a Car App";
+			sourceTree = "<group>";
+		};
+		054A65482164E9BA009F2503 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				054A654B2164E9D8009F2503 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		054A65492164E9C3009F2503 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				054A6575216543AA009F2503 /* Request */,
+				054A65722165427C009F2503 /* Response */,
+				054A657E21654CBD009F2503 /* Vehicle.swift */,
+				054A658C21663FA8009F2503 /* Client.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		054A654A2164E9CB009F2503 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				054A658E21666F81009F2503 /* Summary */,
+				054A658621661F6E009F2503 /* InsertClient */,
+				054A655D21653821009F2503 /* SelectVehicle */,
+				054A65512165341F009F2503 /* SelectDate */,
+				054A655221653435009F2503 /* BasePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		054A654B2164E9D8009F2503 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				054A65972166BCE5009F2503 /* Result */,
+				054A658921663EF3009F2503 /* Summary */,
+				054A658321661E6D009F2503 /* InsertClient */,
+				054A655C2165380C009F2503 /* SelectVehicle */,
+				054A654E216533E0009F2503 /* SelectDate */,
+				054A65542165347D009F2503 /* BaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		054A654C2164E9ED009F2503 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				054A653A2164E9A0009F2503 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		054A654D2164EA15009F2503 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				054A656221653DFA009F2503 /* RequestServices.swift */,
+				054A656421653E22009F2503 /* Manager.swift */,
+				054A656621653E4E009F2503 /* CallbackQueue.swift */,
+				054A656821653E90009F2503 /* CRError.swift */,
+				054A656E21653F36009F2503 /* Session.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		054A654E216533E0009F2503 /* SelectDate */ = {
+			isa = PBXGroup;
+			children = (
+				054A65382164E9A0009F2503 /* SelectDateViewController.swift */,
+			);
+			path = SelectDate;
+			sourceTree = "<group>";
+		};
+		054A65512165341F009F2503 /* SelectDate */ = {
+			isa = PBXGroup;
+			children = (
+				054A654F216533FD009F2503 /* SelectDatePresenter.swift */,
+			);
+			path = SelectDate;
+			sourceTree = "<group>";
+		};
+		054A655621653512009F2503 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		054A655721653566009F2503 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				054A65582165357D009F2503 /* UIAplication.swift */,
+				054A655A21653617009F2503 /* String.swift */,
+				054A656A21653ED6009F2503 /* URLRequest.swift */,
+				054A656C21653EFB009F2503 /* HTTPURLResponse.swift */,
+				054A657021653F65009F2503 /* Array.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		054A655C2165380C009F2503 /* SelectVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				054A658021660157009F2503 /* cell */,
+				054A655E21653995009F2503 /* SelectVehicleViewController.swift */,
+			);
+			path = SelectVehicle;
+			sourceTree = "<group>";
+		};
+		054A655D21653821009F2503 /* SelectVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				054A656021653A63009F2503 /* SelectVehiclePresenter.swift */,
+			);
+			path = SelectVehicle;
+			sourceTree = "<group>";
+		};
+		054A65722165427C009F2503 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				054A659421667EDC009F2503 /* RegisterReserve */,
+				054A6579216544A0009F2503 /* SelectVehicle */,
+				054A657321654294009F2503 /* Response.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		054A6575216543AA009F2503 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				054A659121667E25009F2503 /* RegisterReserve */,
+				054A657821654491009F2503 /* SelectVehicle */,
+				054A657C21654594009F2503 /* BaseRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		054A657821654491009F2503 /* SelectVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				054A6576216543F3009F2503 /* SelectVehicleRequest.swift */,
+			);
+			path = SelectVehicle;
+			sourceTree = "<group>";
+		};
+		054A6579216544A0009F2503 /* SelectVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				054A657A216544BB009F2503 /* SelectVehicleResponse.swift */,
+			);
+			path = SelectVehicle;
+			sourceTree = "<group>";
+		};
+		054A658021660157009F2503 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				054A658121660180009F2503 /* VehicleTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		054A658321661E6D009F2503 /* InsertClient */ = {
+			isa = PBXGroup;
+			children = (
+				054A658421661F13009F2503 /* InsertClienteViewController.swift */,
+			);
+			path = InsertClient;
+			sourceTree = "<group>";
+		};
+		054A658621661F6E009F2503 /* InsertClient */ = {
+			isa = PBXGroup;
+			children = (
+				054A658721661F8A009F2503 /* InsertClientPresenter.swift */,
+			);
+			path = InsertClient;
+			sourceTree = "<group>";
+		};
+		054A658921663EF3009F2503 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				054A658A21663F17009F2503 /* SummaryViewController.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		054A658E21666F81009F2503 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				054A658F21666F98009F2503 /* SummaryPresenter.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		054A659121667E25009F2503 /* RegisterReserve */ = {
+			isa = PBXGroup;
+			children = (
+				054A659221667E72009F2503 /* RegisterReserveRequest.swift */,
+			);
+			path = RegisterReserve;
+			sourceTree = "<group>";
+		};
+		054A659421667EDC009F2503 /* RegisterReserve */ = {
+			isa = PBXGroup;
+			children = (
+				054A659521667EF5009F2503 /* RegisterReserveResponse.swift */,
+			);
+			path = RegisterReserve;
+			sourceTree = "<group>";
+		};
+		054A65972166BCE5009F2503 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				054A65982166BD04009F2503 /* ResultViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		2DC7F15FFDA79189D470256A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1DCD288DC9AFA4F35D1AF4F /* Pods-Rent a Car App.debug.xcconfig */,
+				C83C0DD52E35773470BE9712 /* Pods-Rent a Car App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		327C0E915F7A712A1D636EAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69540EB6F0567A52602F6FC9 /* Pods_Rent_a_Car_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +374,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 054A65452164E9A3009F2503 /* Build configuration list for PBXNativeTarget "Rent a Car App" */;
 			buildPhases = (
+				5AF39DB9721410FB72472924 /* [CP] Check Pods Manifest.lock */,
 				054A652F2164E9A0009F2503 /* Sources */,
 				054A65302164E9A0009F2503 /* Frameworks */,
 				054A65312164E9A0009F2503 /* Resources */,
+				51AACF12CAA137C45288829B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +435,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51AACF12CAA137C45288829B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rent a Car App/Pods-Rent a Car App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rent a Car App/Pods-Rent a Car App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF39DB9721410FB72472924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rent a Car App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		054A652F2164E9A0009F2503 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				054A65392164E9A0009F2503 /* ViewController.swift in Sources */,
+				054A65552165347D009F2503 /* BaseViewController.swift in Sources */,
+				054A658B21663F17009F2503 /* SummaryViewController.swift in Sources */,
+				054A656B21653ED6009F2503 /* URLRequest.swift in Sources */,
+				054A659021666F98009F2503 /* SummaryPresenter.swift in Sources */,
+				054A656D21653EFB009F2503 /* HTTPURLResponse.swift in Sources */,
+				054A657121653F65009F2503 /* Array.swift in Sources */,
+				054A657421654294009F2503 /* Response.swift in Sources */,
+				054A656121653A63009F2503 /* SelectVehiclePresenter.swift in Sources */,
+				054A655F21653995009F2503 /* SelectVehicleViewController.swift in Sources */,
+				054A656321653DFA009F2503 /* RequestServices.swift in Sources */,
+				054A657F21654CBD009F2503 /* Vehicle.swift in Sources */,
+				054A656721653E4E009F2503 /* CallbackQueue.swift in Sources */,
+				054A6577216543F3009F2503 /* SelectVehicleRequest.swift in Sources */,
+				054A656921653E90009F2503 /* CRError.swift in Sources */,
+				054A658221660181009F2503 /* VehicleTableViewCell.swift in Sources */,
+				054A6550216533FD009F2503 /* SelectDatePresenter.swift in Sources */,
+				054A655321653435009F2503 /* BasePresenter.swift in Sources */,
+				054A657B216544BB009F2503 /* SelectVehicleResponse.swift in Sources */,
+				054A658D21663FA8009F2503 /* Client.swift in Sources */,
+				054A65592165357D009F2503 /* UIAplication.swift in Sources */,
+				054A655B21653617009F2503 /* String.swift in Sources */,
+				054A656F21653F36009F2503 /* Session.swift in Sources */,
+				054A657D21654594009F2503 /* BaseRequest.swift in Sources */,
+				054A658821661F8A009F2503 /* InsertClientPresenter.swift in Sources */,
+				054A659321667E72009F2503 /* RegisterReserveRequest.swift in Sources */,
+				054A658521661F13009F2503 /* InsertClienteViewController.swift in Sources */,
+				054A656521653E22009F2503 /* Manager.swift in Sources */,
+				054A65392164E9A0009F2503 /* SelectDateViewController.swift in Sources */,
+				054A65992166BD04009F2503 /* ResultViewController.swift in Sources */,
+				054A659621667EF5009F2503 /* RegisterReserveResponse.swift in Sources */,
 				054A65372164E9A0009F2503 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +653,7 @@
 		};
 		054A65462164E9A3009F2503 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1DCD288DC9AFA4F35D1AF4F /* Pods-Rent a Car App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +672,7 @@
 		};
 		054A65472164E9A3009F2503 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83C0DD52E35773470BE9712 /* Pods-Rent a Car App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

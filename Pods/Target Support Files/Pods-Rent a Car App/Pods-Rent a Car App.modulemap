@@ -1,0 +1,6 @@
+framework module Pods_Rent_a_Car_App {
+  umbrella header "Pods-Rent a Car App-umbrella.h"
+
+  export *
+  module * { export * }
+}
